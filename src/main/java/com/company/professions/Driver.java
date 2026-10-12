@@ -11,8 +11,17 @@ public class Driver extends Person {
         super(age, fullName);
         this.expierence = experience;
     }
+
+    public int getExpierence() {
+        return expierence;
+    }
+    public int setExpierence(int expierence){
+        this.expierence = expierence;
+    }
+
     @Override
     public String toString(){
         return "Driver{" + super.toString() + " + expierence = " + expierence + "}";
     }
 }
+
