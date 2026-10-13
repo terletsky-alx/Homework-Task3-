@@ -1,10 +1,11 @@
 package fruits;
 
 public class Pear extends Fruit{
-    public Pear(){}
+
     public Pear(double weight){
         super(weight);
     }
+    public Pear(){}
 
     @Override
     public double returnPrice(){

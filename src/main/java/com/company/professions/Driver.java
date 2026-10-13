@@ -9,7 +9,7 @@ public class Driver extends Person {
 
     public Driver(int age, String fullName, int experience){
         super(age, fullName);
-        this.expierence = experience;
+        this.expierence = expierence;
     }
 
     public int getExpierence() {

@@ -3,10 +3,11 @@ package fruits;
 public abstract class Fruit {
     private double weight;
 
-    public Fruit (){}
+
     public Fruit (double weight){
         this.weight = weight;
     }
+    public Fruit (){}
 
     public double getWeight() {
         return weight;
