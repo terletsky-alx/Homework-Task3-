@@ -15,9 +15,9 @@ public abstract class Fruit {
     public void setWeight(double weight) {
         this.weight = weight;
     }
-     public final void printManufacturerInfo(){
-         System.out.println("Made in RB");
-     }
+    public final void printManufacturerInfo(){
+        System.out.println("Made in RB");
+    }
 
-     public abstract double returnPrice();
+    public abstract double returnPrice();
 }
